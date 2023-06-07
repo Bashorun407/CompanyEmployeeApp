@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CE.WebAPI", "src\backend\pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "src\backend\core\LoggerService\LoggerService.csproj", "{5BD16767-3A98-41F5-B724-6E62E9418ACC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CE.ServiceContract", "src\backend\core\CE.ServiceContract\CE.ServiceContract.csproj", "{16B1C2FC-C2DA-4AA7-8011-E3835227151A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{5BD16767-3A98-41F5-B724-6E62E9418ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BD16767-3A98-41F5-B724-6E62E9418ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BD16767-3A98-41F5-B724-6E62E9418ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B1C2FC-C2DA-4AA7-8011-E3835227151A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B1C2FC-C2DA-4AA7-8011-E3835227151A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B1C2FC-C2DA-4AA7-8011-E3835227151A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B1C2FC-C2DA-4AA7-8011-E3835227151A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +69,7 @@ Global
 		{EA2119F2-AF6C-4679-9C0C-E571318BE8F5} = {E431C1B8-D550-4805-9566-A33A8178BD05}
 		{FDF0F3BA-2CF9-4BE4-9768-F8077CED1E90} = {1DC9121B-F218-42A1-A98D-9C6A6C36CA52}
 		{5BD16767-3A98-41F5-B724-6E62E9418ACC} = {4D6CA72D-03A8-4A34-92CA-D58316D0D797}
+		{16B1C2FC-C2DA-4AA7-8011-E3835227151A} = {4D6CA72D-03A8-4A34-92CA-D58316D0D797}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C908A73F-B974-4132-BAB5-C9B34C0CC9AD}
