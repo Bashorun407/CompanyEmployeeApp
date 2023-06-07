@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CE.Application.DTOs.DtoForCreation
 {
-    public class AddressDtoForCreation
+    public class AddressDtoForDisplay
     {
         [Required(ErrorMessage = "Building number is required")]
         [MaxLength(5, ErrorMessage = "Building number must be at most 5 characters")]

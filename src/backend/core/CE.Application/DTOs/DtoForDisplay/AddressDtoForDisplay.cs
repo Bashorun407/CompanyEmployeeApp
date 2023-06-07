@@ -5,12 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CE.Application.DTOs.DtoForUpdate
+namespace CE.Application.DTOs.DtoForDisplay
 {
-    public class AddressDtoForUpdate
+    public class AddressDtoForDisplay
     {
-        [Required]
-        public int Id { get; set; }
         [Required(ErrorMessage = "Building number is required")]
         [MaxLength(5, ErrorMessage = "Building number must be at most 5 characters")]
         public string? BuildingNumber { get; set; }
