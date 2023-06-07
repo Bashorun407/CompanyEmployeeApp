@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CE.Application.DTOs
+namespace CE.Application.DTOs.DtoForDisplay
 {
-    public class CompanyDto
+    public class CompanyDtoForUpdate
     {
         public int Id { get; set; }
 

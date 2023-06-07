@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CE.Application.DTOs
+namespace CE.Application.DTOs.DtoForUpdate
 {
-    public class AddressDto
+    public class AddressDtoForUpdate
     {
         public int Id { get; set; }
 
