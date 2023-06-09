@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CE.Application.DTOs.DtoForCreation
 {
-    public class CompanyDtoForDisplay
+    public class CompanyDtoForCreation
     {
         [Required(ErrorMessage = "Company name is required")]
         [MaxLength(25, ErrorMessage = "The length must be at most 25 characters")]

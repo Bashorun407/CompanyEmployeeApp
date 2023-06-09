@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CE.Application.DTOs.DtoForCreation
 {
-    public class EmployeeDtoForDisplay
+    public class EmployeeDtoForCreation
     {
         [Required(ErrorMessage = "First name is required")]
         [MaxLength(50, ErrorMessage = "First name must be at most 50 characters")]
